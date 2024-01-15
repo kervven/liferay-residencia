@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class Usuario implements Serializable {
-    private static final long serialVersiomUID = 1L;
     private Long id;
     private String nome;
     private String email;
